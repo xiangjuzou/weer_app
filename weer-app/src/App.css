@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 17px  'Verdana Pro Cond', Arial, Helvetica, sans-serif ;
+  min-width: 320px;
+  line-height: 1.5; 
+  letter-spacing: .22px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display:block;
+  text-align: center;
+}
+
+.chart-container{
+  position: relative;
+  height:400px;
+  width:800px;
+}
+
+.weer_row {
+  width: 800px;
+}
+
+div.weer_1st{
+ flex-grow: 0.2;
+}
+
+@media screen and (max-width: 768px) {
+
+.overme_faq{
+  width:100%;
+  margin:auto;
+  }
+
+.chart-container{
+ width: 352px;
+ height: 180px;          
+} 
+
+.weer_row {
+  width: 352px;
+}
+
+div.weer_1st{
+  flex-grow: 0.8;
+ }
+
+.contact_info p{
+  font-size: 18px;
+}
+
+}
